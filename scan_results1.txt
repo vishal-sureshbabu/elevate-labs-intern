@@ -1,0 +1,7 @@
+# Nmap 7.94SVN scan initiated Mon May 26 21:31:26 2025 as: nmap -sS -oN scan_results1.txt 192.168.1/100.1/100
+Nmap scan report for 192.168.1/100.1/100
+Host is up (0.0000010s latency).
+All 1000 scanned ports on 192.168.1/100.1/100 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon May 26 21:31:26 2025 -- 1 IP address (1 host up) scanned in 0.13 seconds
