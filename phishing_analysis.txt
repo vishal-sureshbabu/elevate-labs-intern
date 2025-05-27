@@ -1,0 +1,26 @@
+Phishing email analysis Analysis
+
+Objective
+Identify phishing characteristics in a suspicious email sample.
+
+Sample Email
+From: PayPal <security@paypalsecure.com>
+Subject: Urgent: Account Suspension Warning!
+Email Body (Excerpt):
+Dear Valued Customer,
+Your PayPal account has been temporarily suspended due to suspicious activity.
+To restore access, please confirm your identity by clicking the link below:
+[Click Here to Confirm](http://paypalsecure-confirmation.com/verify)
+Failure to comply within 24 hours will result in permanent account suspension.
+Thank you,
+PayPal Security Team
+
+-> Spoofed sender: Uses “paypalsecure.com” instead of official “paypal.com”.
+-> Suspicious link: Hovering reveals http://paypalsecure-confirmation.com/verify, a phishing domain.
+-> Urgent language: Claims account suspension within 24 hours to pressure the user.
+-> Generic greeting: “Dear Valued Customer” instead of a personalized name.
+-> Generic signature: “PayPal Security Team” without specific contact details.
+-> Potential header issues: Likely SPF/DKIM/DMARC failures, mismatched Return-Path and Received headers.
+-> Possible errors: Typical phishing emails often contain grammatical errors and awkward phrasing.
+
+phishing characteristics such as a spoofed sender, suspicious link, urgent tone, and header anomalies. It is designed to steal user credentials by luring the victim to a fake login page
